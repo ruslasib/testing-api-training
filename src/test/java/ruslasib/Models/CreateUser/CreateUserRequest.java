@@ -2,8 +2,8 @@ package ruslasib.Models.CreateUser;
 
 public class CreateUserRequest {
 
-    public CreateUserRequest(String name1, String gender, String email, String status) {
-        this.name = name1;
+    public CreateUserRequest(String name, String gender, String email, String status) {
+        this.name = name;
         this.gender = gender;
         this.email = email;
         this.status = status;
