@@ -15,8 +15,8 @@ public class BaseTest {
     public void setUp(){
         defaultRequest = new RequestSpecBuilder().build();
         defaultRequest.
-                contentType("application/json").
-                header("Authorization", "Bearer e739a2ae8d984e9a6f9c35de533e020bfe38263e1f4e8e443c97d8310aa9a9f5").
+                contentType(ApplicationConstants.CONTENT_TYPE).
+                header(ApplicationConstants.AUTHORIZATION).
                 log().
                 all();
 

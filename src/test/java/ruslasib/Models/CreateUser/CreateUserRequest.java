@@ -1,4 +1,4 @@
-package ruslasib.Models;
+package ruslasib.Models.CreateUser;
 
 public class CreateUserRequest {
 
