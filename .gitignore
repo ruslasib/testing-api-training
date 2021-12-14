@@ -6,3 +6,4 @@
 /.idea/uiDesigner.xml
 *.class
 /.idea/misc.xml
+/target
