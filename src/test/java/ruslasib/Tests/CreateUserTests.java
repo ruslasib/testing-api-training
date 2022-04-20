@@ -7,6 +7,7 @@ import ruslasib.Models.CreateUser.CreateUserRequest;
 import ruslasib.Models.CreateUser.CreateUserResponse.CreateUserResponse;
 
 import static io.restassured.RestAssured.given;
+import static io.restassured.RestAssured.registerParser;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
 
